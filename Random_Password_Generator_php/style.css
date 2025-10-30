@@ -1,6 +1,10 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  background: linear-gradient(135deg, #ffb6f9, #cdb4db, #bde0fe);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 form {
@@ -8,12 +12,43 @@ form {
   margin-bottom: 20px;
 }
 
-label, input, button {
+button {
   display: block;
-  margin: 10px 0;
+    margin: 10px 0;
+    padding: 20px 5px;
+    background-color: rgb(103, 96, 227);
+    color: #e4ed66;
+    border-radius: 8px;
+    border-color: #cdb4db;
+
+}
+button:hover{
+   background-color: rgb(122, 116, 230);
+    color: #e4ea9a;
 }
 
 #generatedPassword {
   font-weight: bold;
   color: green;
+  text-align: center;
 }
+
+#passwordForm{
+  display: flex;
+  flex-direction: column;
+  margin: 0 40%;
+  text-align: center;
+  justify-content: center;
+}
+
+label{
+  display: flex;
+  text-align: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+input[type="number"]{
+  width: 100px;
+}
+
+

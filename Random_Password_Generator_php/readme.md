@@ -9,3 +9,6 @@ The form submits without reloading the page, displaying the generated password i
 - Customizable password length (6-32 characters)
 - Options to include uppercase letters, lowercase letters, numbers, and symbols
 - Real-time password generation without page reload using AJAX
+
+## Important Note
+-To check-out the proper functioning, run the code in any PHP server
